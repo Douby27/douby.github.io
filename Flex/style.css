@@ -1,0 +1,105 @@
+div.container > div{
+    background-color: salmon;
+    margin: 10px;
+    font-size: 30px;
+    width: 100px;
+    line-height: 90px;
+    text-align: center;
+    color: white;
+}
+
+.container{
+    background-color: khaki;
+    display: flex;
+}
+
+/* FLEX */
+/* PROPERTY FLEXBOX :
+    flex-direction
+    flex-wrap
+    flex-flow
+    justify-content
+    align-items
+    align-content
+    dll
+
+*/
+
+/* FLEX-DIRECTION */
+/* 
+    row
+    row-reverse
+    column
+    column-reverse
+*/
+
+
+/* .container{
+    flex-direction: column;
+} */
+
+
+/* FLEX WRAP */
+/* 
+    wrap
+    nowrap
+    wrap-reverse
+*/
+
+/* .container{
+    flex-wrap: wrap;
+} */
+
+/* FLEX FLOW */
+/* Gabungan antara flex direction dan flex wrap (SHORTHAND) */
+
+
+/* 
+    selector{
+        flex-flow :flex_direction  flex_wrap
+    }
+*/
+
+/* .container{
+    flex-flow: column-reverse;
+} */
+
+/* JUSTIFY-CONTENT */
+/* 
+    center
+    space-around
+    space-between
+    space-evenly
+    start
+    end
+    flex-start
+    flex-end
+    rignt
+    left
+*/
+/* .container{
+    justify-content: ;
+} */
+
+/* ALIGN ITEM */
+/* 
+    baseline
+    stretch
+    flex-end
+    flex-start
+    center
+*/
+.container{
+    height: 400px;
+    justify-content: space-evenly;    
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+/* ALIGN CONTENT */
+/* .container{
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+} */
